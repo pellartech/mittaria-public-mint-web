@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('../styles/index.css');
+
+@font-face {
+  font-family: 'MonsterFont';
+  src: url('../assets/fonts/MonsterOfFantasyRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MonsterFont';
+  src: url('../assets/fonts/MonsterOfFantasyRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MonsterFont';
+  src: url('../assets/fonts/MonsterOfFantasyRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* AltformTRIAL-Light */
+@font-face {
+  font-family: 'AltformTRIAL-Light';
+  src: url('../assets/fonts/AltformTRIAL-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AltformTRIAL-Light';
+  src: url('../assets/fonts/AltformTRIAL-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AltformTRIAL-Light';
+  src: url('../assets/fonts/AltformTRIAL-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  /* colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-navy-blue: #010d4a;
+  --color-violet: #160d4d;
+
+  /* font-size */
+  --font-size-xxs: 12px;
+  --font-size-xs: 14px;
+  --font-size-s: 16px;
+  --font-size-m: 18px;
+  --font-size-l: 21px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 25px;
+  --font-size-xxxl: 27px;
+  --font-size-mega: 31px;
+  --font-size-super: 37px;
+  --font-size-ultra: 50px;
+  --font-size-jumbo: 80px;
+
+  /* font-family */
+  --font-monster: 'MonsterFont', sans-serif;
+  --font-kanit: 'Kanit', sans-serif;
+  --font-altform: 'AltformTRIAL-Light', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: var(--font-monster) !important;
+  font-size: var(--font-size-s);
+}

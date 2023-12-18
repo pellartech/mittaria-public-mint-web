@@ -1,0 +1,54 @@
+.mint-start .mint-img {
+  max-width: 204px;
+  margin-bottom: 40px;
+}
+.mint-start .start-in {
+  color: var(--color-white);
+  margin-bottom: 22px;
+  gap: 25px;
+}
+.mint-start .start-in .wing {
+  max-width: 68px;
+}
+.mint-start .start-in .time .title {
+  font-size: var(--font-size-xxxl);
+}
+.mint-start .start-in .time .countdown {
+  font-size: 32px;
+  width: 180px;
+}
+.mint-start .logo-mittaria-genesis {
+  max-width: 244px;
+}
+
+@media screen and (min-width: 768px) {
+  .mint-start .mint-img {
+    max-width: 310px;
+  }
+  .mint-start .start-in {
+    gap: 50px;
+  }
+  .mint-start .start-in .time .title {
+    font-size: var(--font-size-super);
+    line-height: 100%;
+  }
+  .mint-start .start-in .time .countdown {
+    font-size: var(--font-size-jumbo);
+    width: 420px;
+  }
+  .mint-start .logo-mittaria-genesis {
+    max-width: 368px;
+  }
+  .mint-start .start-in .wing {
+    max-width: 137px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mint-start .start-in {
+    gap: 90px;
+  }
+  .time {
+    width: 450px;
+  }
+}

@@ -1,0 +1,241 @@
+.mint-live .check-eligible {
+  width: 100%;
+  color: var(--color-white);
+}
+.mint-live .check-eligible .art-minting-status {
+  width: auto;
+  max-width: initial;
+  height: 294px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.6);
+}
+.mint-live .check-eligible .top-header .title {
+  font-size: var(--font-size-mega);
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.4);
+}
+
+.mint-live .check-eligible .center-content {
+  height: 294px;
+  overflow: hidden;
+}
+.mint-live .check-eligible .center-content .text-step {
+  font-weight: 500;
+  font-size: var(--font-size-m);
+  color: var(--color-navy-blue);
+  text-shadow: 0px 3.5px 1.7px rgba(0, 0, 0, 0.1);
+}
+.mint-live .check-eligible .center-content .text-step span {
+  font-weight: 600;
+}
+.mint-live .check-eligible .bottom-time .total-supply {
+  font-size: var(--font-size-mega);
+}
+.mint-live .check-eligible .bottom-time .time-left .countdown {
+  font-size: var(--font-size-l);
+}
+
+/* mint card */
+.mint-live .mint-card {
+  margin-top: -5px;
+}
+.mint-live .mint-card .section-mint {
+  width: 100vw;
+  max-width: 350px;
+  padding-top: 463px;
+  font-family: var(--font-kanit);
+  color: var(--color-white);
+  overflow: hidden;
+}
+/* .mint-live .mint-card .section-mint .mint-card-video .video {
+  transform: scale(4.5);
+} */
+.mint-live .mint-card .section-mint .eth-price {
+  bottom: 235px;
+  font-size: var(--font-size-xxs);
+  border-radius: 4px;
+  box-shadow: 0px 0px 5.250010967254639px 0px #FFFFFF;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.mint-live .mint-card .section-mint .amount {
+  bottom: 208px;
+  height: 15px;
+  width: 78px;
+  border-radius: 7px;
+  opacity: 0.6px;
+  box-shadow: 0px 0px 5.250010967254639px 0px #FFFFFF;
+  font-size: var(--font-size-xxs);
+}
+.mint-live .mint-card .section-mint .button-amount {
+  width: 35px;
+  z-index: 12;
+}
+.mint-live .mint-card .section-mint .button-minus {
+  bottom: 202px;
+  left: 95px;
+}
+.mint-live .mint-card .section-mint .button-plus {
+  bottom: 202px;
+  right: 95px;
+}
+.mint-live .mint-card .section-mint .button-mint {
+  font-family: var(--font-monster);
+  font-weight: 500;
+  font-size: var(--font-size-xxl);
+  width: 85px;
+  height: 85px;
+  bottom: 102px;
+}
+
+/* nft-card */
+.mint-card .nft-cards {
+  top: 25px;
+  width: 100vw;
+  z-index: 11;
+}
+.mint-card .nft-cards {
+  display: flex;
+  justify-content: center;
+}
+.mint-card .nft-cards .nft-image {
+  width: 150px;
+  margin-right: 10px;
+}
+.mint-card .nft-cards .nft-image+.nft-image {
+  margin-left: -60px;
+}
+.mint-card .nft-cards .nft-image:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .mint-live .check-eligible .top-header .title br {
+    display: none;
+  }
+  .mint-live .check-eligible .content {
+    height: 323px;
+  }
+  .mint-live .check-eligible .bottom-time .time-left {
+    font-size: var(--font-size-m);
+  }
+  .mint-live .check-eligible .bottom-time .countdown {
+    font-size: var(--font-size-sl);
+  }
+  .mint-live .mint-card .section-mint {
+    max-width: 700px;
+    padding-top: 518px;
+    margin-top: -49px;
+  }
+  .mint-live .mint-card .section-mint .amount {
+    bottom: 232px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    height: 15px;
+  }
+  .mint-live .mint-card .section-mint .eth-price {
+    bottom: 260px;
+  }
+  .mint-live .mint-card .section-mint .button-amount {
+    width: 40px;
+  }
+  .mint-live .mint-card .section-mint .button-minus {
+    bottom: 226px;
+    left: 260px;
+  }
+  .mint-live .mint-card .section-mint .button-plus {
+    bottom: 226px;
+    right: 260px;
+  }
+  .mint-live .mint-card .section-mint .button-mint {
+    bottom: 118px;
+  }
+  .mint-card .nft-cards {
+    top: 25px;
+  }
+  .mint-card .nft-cards {
+    display: flex;
+    justify-content: center;
+  }
+  .mint-card .nft-cards .nft-image {
+    width: 170px;
+    margin-right: 10px;
+  }
+  .mint-card .nft-cards .nft-image+.nft-image {
+    margin-left: -120px;
+  }
+  .mint-card .nft-cards .nft-image:last-child {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .mint-live .check-eligible .center-content .text-step {
+    font-size: var(--font-size-l);
+  }
+  .mint-live .check-eligible .art-minting-status {
+    height: 500px;
+    max-height: 400px;
+  }
+  .mint-live .check-eligible .center-content {
+    height: 350px;
+  }
+  .mint-live .mint-card .section-mint {
+    max-width: 1300px;
+    padding-top: 518px;
+    margin-top: -49px;
+  }
+  .mint-live .mint-card .section-mint .button-mint {
+    bottom: 95px;
+  }
+  .mint-live .mint-card .section-mint .eth-price {
+    bottom: 228px;
+  }
+  .mint-live .mint-card .section-mint .button-amount {
+    width: 51px;
+  }
+  .mint-live .mint-card .section-mint .button-minus {
+    bottom: 216px;
+    left: 540px;
+  }
+  .mint-live .mint-card .section-mint .button-plus {
+    bottom: 216px;
+    right: 540px;
+  }
+  .mint-live .mint-card .section-mint .amount {
+    bottom: 222px;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 104px;
+    height: 22px;
+  }
+  .mint-live .mint-card .section-mint .eth-price {
+    bottom: 260px;
+  }
+  .mint-card .nft-cards {
+    width: auto;
+    top: -50px;
+  }
+  .mint-card .nft-cards {
+    display: flex;
+    justify-content: center;
+  }
+  .mint-card .nft-cards .nft-image {
+    width: 240px;
+    height: 380px;
+    margin-right: 10px;
+  }
+
+  .mint-card .nft-cards .nft-image+.nft-image {
+    margin-left: -150px;
+  }
+
+  .mint-card .nft-cards .nft-image:last-child {
+    margin-right: 0;
+  }
+}

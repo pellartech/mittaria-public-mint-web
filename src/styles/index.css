@@ -1,0 +1,18 @@
+@import url('./pages/home.module.css');
+@import url('./pages/termsAndConditions.css');
+@import url('./pages/creatorForm.css');
+
+@import url('./modules/index.css');
+@import url('./common/ToastMessage.module.css');
+
+.font-monster {
+  font-family: var(--font-monster);
+}
+
+.font-kanit {
+  font-family: var(--font-kanit);
+}
+
+.font-altform {
+  font-family: var(--font-altform);
+}
